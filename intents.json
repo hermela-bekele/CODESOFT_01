@@ -1,0 +1,22 @@
+{"intents": [
+    { "tag": "greeting",
+        "patterns": ["HI there", "HOw are you", "Is anyone there", "Hey", "Hello", "Good morning", "Good afternoon","Good evening", "Good day"],
+        "responses": ["Hello", "Good to see you again", "HI there, how can I help"],
+        "context": [""]
+    },
+    {"tag": "goodbye",
+        "patterns": ["Bye", "See you later","Goodbye", "NIce chatting with you, bye", "Till next time"],
+        "responses": ["See you", "Have a nice day", "Bye! Come back soon"],
+        "context":[""]
+    },
+    { "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That was helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["My pleasure", "You are welcome", "Any time"],
+        "context": [""]
+    },
+    {"tag": "query",
+        "patterns": ["What is rule based chat bot"],
+        "responses": ["A rule-based chatbot is a type of chatbot that operates based on predefined rules and patterns set by developers. These rules are typically hardcoded decision trees or conditional statements that the bot uses to determine how to respond to user inputs"],
+        "context": [""]
+    }
+]}
